@@ -9,7 +9,7 @@ class Download(object):
         self.chapter_name   = []
         self.chapter_url    = []
         self.chapter_nums   = 0
-        pass
+        
     def get_novel(self):
         req             = requests.get(url = self.target)
         req.encoding    = 'gbk'
